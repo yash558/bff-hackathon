@@ -1,0 +1,71 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%)
+    brightness(140%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1500;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h2 {
+  color: #26ba8a;
+  
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar li {
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #26ba8a;
+}
+.collapsed.navbar-collapse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up {  
+  border:1px solid #26ba8a;
+  padding: 10px;
+  width: 100px;
+  color: #26ba8a;
+  font-size: 1rem;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.sign-up:hover{
+  background-color: #26ba8a;
+  color: #fff;
+}
